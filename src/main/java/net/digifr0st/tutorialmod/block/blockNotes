@@ -1,0 +1,7 @@
+Some general notes to remember:
+    - The generic type used in the registry for blocks is from net.minecraft.worl.level.block
+    - Blocks need to be registered as blocks and items this is reflected in the assets as well
+    - Each block will need a blockstates.json, as well as a BLOCKNAME.json in both the block
+        and item directories of the models. The item version will reference the block version
+        as the parent. The block version will reference the block parent and have the texture
+        reference.
